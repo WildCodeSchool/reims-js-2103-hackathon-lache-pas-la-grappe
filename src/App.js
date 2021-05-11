@@ -1,10 +1,12 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Vine from './component/Vine';
+
 import './App.css';
 import Map from './component/Map';
 
 import Navbar from './component/Navbar';
+import './component/Navbar.css';
 
 function App() {
   return (
