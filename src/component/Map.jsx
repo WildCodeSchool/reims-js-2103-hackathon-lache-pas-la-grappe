@@ -4,6 +4,7 @@ const position = [49.25, 4.02]
         
 function Map() {
     return(
+      <>
         <MapContainer style ={{ width: '100vw', height: '90vh'}} center={position} zoom={13} scrollWheelZoom={false}>
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
@@ -15,7 +16,9 @@ function Map() {
             </Popup>
           </Marker>
         </MapContainer>
+      </>
       )
+      
 }
 
 export default Map;

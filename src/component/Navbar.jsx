@@ -1,15 +1,21 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
     <nav className="navbar">
   <div>
       <ul className="navbarLink">
-        <li><button type = "button" className="navbarLinkItem"> Vine </button></li>
-        <li><button type = "button" className="navbarLinkItem"> Plants / Levels </button></li>
-        <li><button type = "button" className="navbarLinkItem"> Map </button></li>
+        <li>
+          <NavLink exact to="/" ClassName="navbarLinkItem">Vine</NavLink>
+        </li>
+        <li>
+          <NavLink exact to="/plants" ClassName="navbarLinkItem">Plants</NavLink>
+        </li>
+        <li>
+          <NavLink exact to="/map" ClassName="navbarLinkItem">Map</NavLink>
+        </li>
       </ul>
      </div>
-
     </nav>
   )
 

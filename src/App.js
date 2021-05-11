@@ -1,28 +1,24 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Vine from './component/Vine';
-
-import './App.css';
+import Navbar from './component/Navbar';
 import Map from './component/Map';
 
-import Navbar from './component/Navbar';
+
 import './component/Navbar.css';
+import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
+      <Vine />
       <Switch>
-        <Route exact path="/">
-          <Vine />
-        </Route>
-        <Route exact path="/Map">
+        <Route exact path="/map" component={Map}>
           <Map />
         </Route>
-        <Route exact path="/Navbar">
-          <Navbar />
-        </Route>
       </Switch>
-      </BrowserRouter>
+      <Navbar />
+    </BrowserRouter>
   );
 }
 
