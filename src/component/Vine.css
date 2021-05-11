@@ -1,0 +1,98 @@
+.gameView {
+    min-height: 90vh;
+    min-width: 100vw;
+    background-image: url("../images/vine_background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    gap: 2px 2px;
+    grid-template-areas:
+      ". . . . . . . . ."
+      "mill-img honey-img sunflower-img corn-img vine-img sprout-img tree-img well-img wheat-img"
+      "mill-points honey-points sunflower-points corn-points vine-health sprout-points tree-points well-points wheat-points"
+      ". . . . . . . . .";
+}
+
+.vine-health {
+    grid-area: vine-health;
+}
+
+.corn-points {
+    grid-area: corn-points;
+}
+
+.sunflower-points {
+    grid-area: sunflower-points;
+}
+
+.honey-points {
+    grid-area: honey-points;
+}
+
+.mill-points {
+    grid-area: mill-points;
+}
+
+.sprout-points {
+    grid-area: sprout-points;
+}
+
+.tree-points {
+    grid-area: tree-points;
+}
+
+.well-points {
+    grid-area: well-points;
+}
+
+.wheat-points {
+    grid-area: wheat-points;
+}
+
+.vine-img {
+    grid-area: vine-img;
+    height: 100px;
+}
+
+.corn-img {
+    grid-area: corn-img;
+    height: 50px;
+}
+
+.sunflower-img {
+    grid-area: sunflower-img;
+    height: 50px;
+}
+
+.honey-img {
+    grid-area: honey-img;
+    height: 50px;
+}
+
+.mill-img {
+    grid-area: mill-img;
+    height: 50px;
+}
+
+.sprout-img {
+    grid-area: sprout-img;
+    height: 50px;
+}
+
+.tree-img {
+    grid-area: tree-img;
+    height: 50px;
+}
+
+.well-img {
+    grid-area: well-img;
+    height: 50px;
+}
+
+.wheat-img {
+    grid-area: wheat-img;
+    height: 50px;
+}
