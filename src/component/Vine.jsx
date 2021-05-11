@@ -19,5 +19,4 @@ function Vine() {
     )
   }
 
-  export default Vine;
-  
+export default Vine;
