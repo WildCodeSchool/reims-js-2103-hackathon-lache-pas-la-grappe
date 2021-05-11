@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Vine from './component/Vine';
 import Plants from './component/Plants';
+import Map from './component/Map';
+import Navbar from './component/Navbar';
 import './App.css';
 
 function App() {
@@ -11,17 +14,29 @@ function App() {
   const [corn, setCorn] = useState(false);
 
   return (
-      <div className="App">
+    <div className="App">
+      <Router>
         <img className="lplg-logo" src="https://nsa40.casimages.com/img/2021/05/11/210511104346329002.png" alt="lplg-logo" width="150px" />
-        <Vine />
-        <Plants 
-          setTree={setTree}
-          setSunflower={setSunflower}
-          setHive={setHive}
-          setSprout={setSprout}
-          setCorn={setCorn}
-        />
-      </div>
+        <Switch>
+          <Route exact path="/">
+            <Vine />
+          </Route>
+          <Route exact path="/plants">
+            <Plants 
+                setTree={setTree}
+                setSunflower={setSunflower}
+                setHive={setHive}
+                setSprout={setSprout}
+                setCorn={setCorn}
+              />
+          </Route>
+          <Route exact path="/map">
+            <Map />
+          </Route>
+        </Switch>
+        <Navbar />
+      </Router>
+    </div>
   );
 }
 

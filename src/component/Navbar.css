@@ -4,7 +4,7 @@
     z-index: 1;  
   }
   
-  .navbarLinkItem, li {
+  .navbarLinkItem {
     border : 5px solid rgb(111,41,97);
     border-radius: .5em;
     padding: 10px;
