@@ -1,20 +1,27 @@
 .gameView {
-    min-height: 80vh;
-    min-width: 100vw;
-    background-image: url("../images/vine_background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
+    min-height: 90vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr 1fr;
+    grid-template-rows: 4fr 1fr;
     gap: 2px 2px;
     grid-template-areas:
-      ". . . . . . . . ."
       "mill-img honey-img sunflower-img corn-img vine-img sprout-img tree-img well-img wheat-img"
-      "mill-points honey-points sunflower-points corn-points vine-health sprout-points tree-points well-points wheat-points"
-      ". . . . . . . . .";
+      "mill-points honey-points sunflower-points corn-points vine-health sprout-points tree-points well-points wheat-points";
+}
+
+.vineyard_BW, .vineyard {
+    position: absolute;
+    height: 90vh;
+}
+
+.vineyard_BW {
+    opacity: 1;
+    z-index: -1;
+}
+
+.vineyard {
+    opacity: 1;
+    z-index: -2;
 }
 
 .vine-health {
