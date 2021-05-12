@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 const position = [49.1565474, 4.06];

@@ -7,11 +7,15 @@ import Navbar from './component/Navbar';
 import './App.css';
 
 function App() {
-  const [tree, setTree] = useState(false);
-  const [sunflower, setSunflower] = useState(false);
-  const [hive, setHive] = useState(false);
-  const [sprout, setSprout] = useState(false);
-  const [corn, setCorn] = useState(false);
+  const [, setTree] = useState(false);
+  const [, setSunflower] = useState(false);
+  const [, setHive] = useState(false);
+  const [, setSprout] = useState(false);
+  const [, setCorn] = useState(false);
+  const [, setWell] = useState(false);
+  const [, setWheat] = useState(false);
+  const [, setMill] = useState(false);
+
 
   return (
     <div className="App">
@@ -28,6 +32,9 @@ function App() {
                 setHive={setHive}
                 setSprout={setSprout}
                 setCorn={setCorn}
+                setWell={setWell}
+                setWheat={setWheat}
+                setMill={setMill}
               />
           </Route>
           <Route exact path="/map">
