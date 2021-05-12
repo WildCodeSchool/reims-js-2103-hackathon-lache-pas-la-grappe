@@ -47,6 +47,8 @@ function Vine() {
             <p className="well-points">+2</p>
             <img className="wheat-img" src="https://nsa40.casimages.com/img/2021/05/12/210512120139894866.png" alt="wheat" />
             <p className="wheat-points">+10</p>
+            <img className="vineyard_BW" src="https://nsa40.casimages.com/img/2021/05/12/210512101353804339.jpg" alt="vineyard_BW" />
+            <img className="vineyard" src="https://nsa40.casimages.com/img/2021/05/12/210512101224124078.jpg" alt="vineyard" />
           </div>
         </div>
       </>
