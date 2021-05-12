@@ -1,13 +1,14 @@
 .gameView {
-    min-height: 90vh;
+    min-height: 80vh;
     min-width: 100vw;
     background-image: url("../images/vine_background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position-x: center;
+    background-position-y: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr 1fr;
     gap: 2px 2px;
     grid-template-areas:
       ". . . . . . . . ."
@@ -55,44 +56,62 @@
 .vine-img {
     grid-area: vine-img;
     height: 100px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .corn-img {
     grid-area: corn-img;
     height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .sunflower-img {
     grid-area: sunflower-img;
     height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .honey-img {
     grid-area: honey-img;
     height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .mill-img {
     grid-area: mill-img;
     height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .sprout-img {
     grid-area: sprout-img;
     height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .tree-img {
     grid-area: tree-img;
     height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .well-img {
     grid-area: well-img;
     height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .wheat-img {
     grid-area: wheat-img;
     height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
 }
