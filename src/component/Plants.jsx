@@ -38,37 +38,37 @@ function Plants ({ setTree, setSunflower, setHive, setSprout, setCorn, setMill, 
       </button>
       </div>
       <div className="plants">
-      <button className="button" onClick={ ()=> setTree(true)} activeClassName="active">
+      <button className="button-gray" onClick={ ()=> setTree(true)} activeClassName="active">
       <img  className="pics" src={Tree} alt="Tree" />     
        <p>Tree</p>
       </button>
       </div>
       <div className="plants">
-      <button className="button" onClick={ ()=> setSprout(true)} activeClassName="active">
+      <button className="button-gray" onClick={ ()=> setSprout(true)} activeClassName="active">
       <img  className="pics" src={Sprout} alt="Sprout" />    
        <p>Sprout</p>
       </button>
       </div>
       <div className="plants">
-      <button className="button" onClick={ ()=> setCorn(true)} activeClassName="active">
+      <button className="button-gray" onClick={ ()=> setCorn(true)} activeClassName="active">
       <img  className="pics" src={Corn} alt="Corn" />     
        <p>Corn</p>
       </button>
       </div>
       <div className="plants">
-      <button className="button" onClick={ ()=> setMill(true)} activeClassName="active">
+      <button className="button-gray" onClick={ ()=> setMill(true)} activeClassName="active">
       <img  className="pics" src={Mill} alt="Mill" />     
        <p>Mill</p>
       </button>
       </div>
       <div className="plants">
-      <button className="button" onClick={ ()=> setWell(true)} activeClassName="active">
+      <button className="button-gray" onClick={ ()=> setWell(true)} activeClassName="active">
       <img  className="pics" src={Well} alt="Well" />     
        <p>Well</p>
       </button>
       </div>
       <div className="plants">
-      <button className="button" onClick={ ()=> setWheat(true)} activeClassName="active">
+      <button className="button-gray" onClick={ ()=> setWheat(true)} activeClassName="active">
       <img  className="pics" src={Wheat} alt="Wheat" />     
        <p>Wheat</p>
       </button>
