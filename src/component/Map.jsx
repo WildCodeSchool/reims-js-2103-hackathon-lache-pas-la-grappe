@@ -8,7 +8,7 @@ const position3 = [48.8947062, 4.0232481]
 function Map() {
     return(
       <>
-        <MapContainer style ={{ width: '100vw', height: '90vh'}} center={position} zoom={9} scrollWheelZoom={false}>
+        <MapContainer style ={{ width: '100vw', height: '80vh'}} center={position} zoom={9} scrollWheelZoom={false}>
           <TileLayer
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
