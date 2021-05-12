@@ -19,3 +19,11 @@
   a {
     text-decoration: none;
   }
+
+.navbarLink {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
